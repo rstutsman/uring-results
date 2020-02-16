@@ -1,0 +1,3 @@
+== Engine spdk Dev /dev/nvme1n1 Jobs 1 TargetIOPS 1000 1000 Polling 0 ==
+Starting SPDK v20.04-pre git sha1 72b9af55f / DPDK 19.11.0 initialization...
+[ DPDK EAL parameters: fio --no-shconf -c 0x1 -m 0 --log-level=lib.eal:6 --log-level=lib.cryptodev:5 --log-level=user1:6 --iova-mode=pa --base-virtaddr=0x200000000000 --match-allocations --file-prefix=spdk_pid3250 ]
