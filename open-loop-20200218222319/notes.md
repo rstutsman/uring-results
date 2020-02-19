@@ -1,0 +1,1 @@
+This is a re-run where hipri is set to 1, which triggers IOPOLL behavior. QD here is left to go up to 1024 as needed. This is the first recent run with fixedbufs and registerfiles, too, so we should probably rerun dropping hipri to see where all the differences come from.
