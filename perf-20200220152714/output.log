@@ -1,0 +1,6 @@
+== Dev /dev/nvme0n1 IOdepth 1 ==
+Starting SPDK v20.04-pre git sha1 72b9af55f / DPDK 19.11.0 initialization...
+[ DPDK EAL parameters: perf --no-shconf -c 0x1 --log-level=lib.eal:6 --log-level=lib.cryptodev:5 --log-level=user1:6 --iova-mode=pa --base-virtaddr=0x200000000000 --match-allocations --file-prefix=spdk_pid15024 ]
+Initializing NVMe Controllers
+EAL: Driver cannot attach the device (0000:02:00.0)
+EAL: Failed to attach device on primary process
