@@ -66,3 +66,37 @@ Summary latency data for PCIE (0000:02:00.0)                         from core 0
  99.99990% :    53.248us
  99.99999% :   127.659us
 
+== Dev /dev/nvme0n1 IOdepth 4 ==
+0000:01:00.0 (8086 f1a8): Skipping un-whitelisted NVMe controller at 0000:01:00.0
+0000:02:00.0 (8086 2700): Already using the uio_pci_generic driver
+Starting SPDK v20.04-pre git sha1 72b9af55f / DPDK 19.11.0 initialization...
+[ DPDK EAL parameters: perf --no-shconf -c 0x1 --log-level=lib.eal:6 --log-level=lib.cryptodev:5 --log-level=user1:6 --iova-mode=pa --base-virtaddr=0x200000000000 --match-allocations --file-prefix=spdk_pid16670 ]
+Initializing NVMe Controllers
+Attached to NVMe Controller at 0000:02:00.0 [8086:2700]
+Associating PCIE (0000:02:00.0) with lcore 0
+Initialization complete. Launching workers.
+========================================================
+                                                                    Latency(us)
+Device Information              :       IOPS      MiB/s    Average        min        max
+PCIE (0000:02:00.0) from core  0:  466029.83    1820.43       8.57       6.77     106.15
+========================================================
+Total                           :  466029.83    1820.43       8.57       6.77     106.15
+
+Summary latency data for PCIE (0000:02:00.0)                         from core 0:
+=================================================================================
+  1.00000% :     7.083us
+ 10.00000% :     7.509us
+ 25.00000% :     7.936us
+ 50.00000% :     8.192us
+ 75.00000% :     8.789us
+ 90.00000% :     9.088us
+ 95.00000% :     9.429us
+ 98.00000% :    17.152us
+ 99.00000% :    24.064us
+ 99.50000% :    25.771us
+ 99.90000% :    39.765us
+ 99.99000% :    43.008us
+ 99.99900% :    51.883us
+ 99.99990% :    54.272us
+ 99.99999% :   105.813us
+
