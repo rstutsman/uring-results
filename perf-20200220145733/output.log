@@ -1,0 +1,186 @@
+== Dev /dev/nvme0n1 IOdepth 1 ==
+Starting SPDK v20.04-pre git sha1 72b9af55f / DPDK 19.11.0 initialization...
+[ DPDK EAL parameters: perf --no-shconf -c 0x1 --log-level=lib.eal:6 --log-level=lib.cryptodev:5 --log-level=user1:6 --iova-mode=pa --base-virtaddr=0x200000000000 --match-allocations --file-prefix=spdk_pid12189 ]
+Initializing NVMe Controllers
+Associating /dev/nvme0n1 with lcore 0
+Initialization complete. Launching workers.
+========================================================
+                                                             Latency(us)
+Device Information       :       IOPS      MiB/s    Average        min        max
+/dev/nvme0n1 from core  0:   93678.93     365.93      10.66       9.55      76.04
+========================================================
+Total                    :   93678.93     365.93      10.66       9.55      76.04
+
+Summary latency data for /dev/nvme0n1                                from core 0:
+=================================================================================
+  1.00000% :     9.941us
+ 10.00000% :    10.453us
+ 25.00000% :    10.496us
+ 50.00000% :    10.581us
+ 75.00000% :    10.624us
+ 90.00000% :    10.752us
+ 95.00000% :    10.837us
+ 98.00000% :    11.008us
+ 99.00000% :    11.947us
+ 99.50000% :    19.627us
+ 99.90000% :    37.376us
+ 99.99000% :    43.691us
+ 99.99900% :    48.469us
+ 99.99990% :    50.517us
+ 99.99999% :    76.117us
+
+== Dev /dev/nvme0n1 IOdepth 2 ==
+Starting SPDK v20.04-pre git sha1 72b9af55f / DPDK 19.11.0 initialization...
+[ DPDK EAL parameters: perf --no-shconf -c 0x1 --log-level=lib.eal:6 --log-level=lib.cryptodev:5 --log-level=user1:6 --iova-mode=pa --base-virtaddr=0x200000000000 --match-allocations --file-prefix=spdk_pid12196 ]
+Initializing NVMe Controllers
+Associating /dev/nvme0n1 with lcore 0
+Initialization complete. Launching workers.
+========================================================
+                                                             Latency(us)
+Device Information       :       IOPS      MiB/s    Average        min        max
+/dev/nvme0n1 from core  0:  173894.23     679.27      11.48       9.24     167.99
+========================================================
+Total                    :  173894.23     679.27      11.48       9.24     167.99
+
+Summary latency data for /dev/nvme0n1                                from core 0:
+=================================================================================
+  1.00000% :     9.984us
+ 10.00000% :    10.923us
+ 25.00000% :    11.179us
+ 50.00000% :    11.264us
+ 75.00000% :    11.605us
+ 90.00000% :    12.032us
+ 95.00000% :    12.203us
+ 98.00000% :    12.885us
+ 99.00000% :    16.469us
+ 99.50000% :    18.688us
+ 99.90000% :    40.107us
+ 99.99000% :    46.421us
+ 99.99900% :    50.859us
+ 99.99990% :    59.733us
+ 99.99999% :   168.619us
+
+== Dev /dev/nvme0n1 IOdepth 4 ==
+Starting SPDK v20.04-pre git sha1 72b9af55f / DPDK 19.11.0 initialization...
+[ DPDK EAL parameters: perf --no-shconf -c 0x1 --log-level=lib.eal:6 --log-level=lib.cryptodev:5 --log-level=user1:6 --iova-mode=pa --base-virtaddr=0x200000000000 --match-allocations --file-prefix=spdk_pid12203 ]
+Initializing NVMe Controllers
+Associating /dev/nvme0n1 with lcore 0
+Initialization complete. Launching workers.
+========================================================
+                                                             Latency(us)
+Device Information       :       IOPS      MiB/s    Average        min        max
+/dev/nvme0n1 from core  0:  344590.57    1346.06      11.59       9.10      70.10
+========================================================
+Total                    :  344590.57    1346.06      11.59       9.10      70.10
+
+Summary latency data for /dev/nvme0n1                                from core 0:
+=================================================================================
+  1.00000% :     9.600us
+ 10.00000% :    10.453us
+ 25.00000% :    10.923us
+ 50.00000% :    11.093us
+ 75.00000% :    11.776us
+ 90.00000% :    12.629us
+ 95.00000% :    13.483us
+ 98.00000% :    19.797us
+ 99.00000% :    22.357us
+ 99.50000% :    24.064us
+ 99.90000% :    44.032us
+ 99.99000% :    47.787us
+ 99.99900% :    54.613us
+ 99.99990% :    60.075us
+ 99.99999% :    69.632us
+
+== Dev /dev/nvme0n1 IOdepth 8 ==
+Starting SPDK v20.04-pre git sha1 72b9af55f / DPDK 19.11.0 initialization...
+[ DPDK EAL parameters: perf --no-shconf -c 0x1 --log-level=lib.eal:6 --log-level=lib.cryptodev:5 --log-level=user1:6 --iova-mode=pa --base-virtaddr=0x200000000000 --match-allocations --file-prefix=spdk_pid12210 ]
+Initializing NVMe Controllers
+Associating /dev/nvme0n1 with lcore 0
+Initialization complete. Launching workers.
+========================================================
+                                                             Latency(us)
+Device Information       :       IOPS      MiB/s    Average        min        max
+/dev/nvme0n1 from core  0:  451235.60    1762.64      17.70      10.59     190.33
+========================================================
+Total                    :  451235.60    1762.64      17.70      10.59     190.33
+
+Summary latency data for /dev/nvme0n1                                from core 0:
+=================================================================================
+  1.00000% :    14.677us
+ 10.00000% :    15.957us
+ 25.00000% :    16.640us
+ 50.00000% :    17.323us
+ 75.00000% :    18.091us
+ 90.00000% :    18.944us
+ 95.00000% :    20.139us
+ 98.00000% :    26.112us
+ 99.00000% :    27.819us
+ 99.50000% :    32.597us
+ 99.90000% :    49.835us
+ 99.99000% :    58.709us
+ 99.99900% :    66.560us
+ 99.99990% :   111.957us
+ 99.99999% :   189.781us
+
+== Dev /dev/nvme0n1 IOdepth 16 ==
+Starting SPDK v20.04-pre git sha1 72b9af55f / DPDK 19.11.0 initialization...
+[ DPDK EAL parameters: perf --no-shconf -c 0x1 --log-level=lib.eal:6 --log-level=lib.cryptodev:5 --log-level=user1:6 --iova-mode=pa --base-virtaddr=0x200000000000 --match-allocations --file-prefix=spdk_pid12217 ]
+Initializing NVMe Controllers
+Associating /dev/nvme0n1 with lcore 0
+Initialization complete. Launching workers.
+========================================================
+                                                             Latency(us)
+Device Information       :       IOPS      MiB/s    Average        min        max
+/dev/nvme0n1 from core  0:  477234.10    1864.20      33.49      21.50     142.29
+========================================================
+Total                    :  477234.10    1864.20      33.49      21.50     142.29
+
+Summary latency data for /dev/nvme0n1                                from core 0:
+=================================================================================
+  1.00000% :    26.283us
+ 10.00000% :    30.891us
+ 25.00000% :    32.085us
+ 50.00000% :    33.280us
+ 75.00000% :    34.475us
+ 90.00000% :    36.181us
+ 95.00000% :    38.571us
+ 98.00000% :    41.813us
+ 99.00000% :    48.469us
+ 99.50000% :    58.709us
+ 99.90000% :    66.901us
+ 99.99000% :    76.800us
+ 99.99900% :    92.843us
+ 99.99990% :   135.851us
+ 99.99999% :   141.995us
+
+== Dev /dev/nvme0n1 IOdepth 32 ==
+Starting SPDK v20.04-pre git sha1 72b9af55f / DPDK 19.11.0 initialization...
+[ DPDK EAL parameters: perf --no-shconf -c 0x1 --log-level=lib.eal:6 --log-level=lib.cryptodev:5 --log-level=user1:6 --iova-mode=pa --base-virtaddr=0x200000000000 --match-allocations --file-prefix=spdk_pid12224 ]
+Initializing NVMe Controllers
+Associating /dev/nvme0n1 with lcore 0
+Initialization complete. Launching workers.
+========================================================
+                                                             Latency(us)
+Device Information       :       IOPS      MiB/s    Average        min        max
+/dev/nvme0n1 from core  0:  488214.83    1907.09      65.51      26.65     212.68
+========================================================
+Total                    :  488214.83    1907.09      65.51      26.65     212.68
+
+Summary latency data for /dev/nvme0n1                                from core 0:
+=================================================================================
+  1.00000% :    55.296us
+ 10.00000% :    62.123us
+ 25.00000% :    64.171us
+ 50.00000% :    65.195us
+ 75.00000% :    66.901us
+ 90.00000% :    69.291us
+ 95.00000% :    72.021us
+ 98.00000% :    78.165us
+ 99.00000% :    82.944us
+ 99.50000% :    90.795us
+ 99.90000% :    98.304us
+ 99.99000% :   115.371us
+ 99.99900% :   132.437us
+ 99.99990% :   207.531us
+ 99.99999% :   211.627us
+
