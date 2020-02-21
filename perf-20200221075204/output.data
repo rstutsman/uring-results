@@ -1,3 +1,5 @@
 engine;dev;iodepth;iops;50th;99th
 spdk;/dev/nvme0n1;1;120231.40;8.192;40.789
 aio;/dev/nvme0n1;1;93636.30;10.581;43.179
+spdk;/dev/nvme0n1;2;244764.57;7.936;41.984
+aio;/dev/nvme0n1;2;174054.80;11.264;45.739
