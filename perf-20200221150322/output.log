@@ -534,3 +534,70 @@ Summary latency data for /dev/nvme0n1                                from core 0
  99.99990% :   354.987us
  99.99999% :   368.640us
 
+== Engine spdk Dev /dev/nvme0n1 IOdepth 256 ==
+0000:01:00.0 (8086 f1a8): Skipping un-whitelisted NVMe controller at 0000:01:00.0
+0000:02:00.0 (8086 2700): nvme -> uio_pci_generic
+Starting SPDK v20.04-pre git sha1 72b9af55f / DPDK 19.11.0 initialization...
+[ DPDK EAL parameters: perf --no-shconf -c 0x1 --log-level=lib.eal:6 --log-level=lib.cryptodev:5 --log-level=user1:6 --iova-mode=pa --base-virtaddr=0x200000000000 --match-allocations --file-prefix=spdk_pid28951 ]
+Initializing NVMe Controllers
+Attached to NVMe Controller at 0000:02:00.0 [8086:2700]
+Associating PCIE (0000:02:00.0) with lcore 0
+Initialization complete. Launching workers.
+========================================================
+                                                                    Latency(us)
+Device Information              :       IOPS      MiB/s    Average        min        max
+PCIE (0000:02:00.0) from core  0:  586627.31    2291.51     436.38     188.04     550.55
+========================================================
+Total                           :  586627.31    2291.51     436.38     188.04     550.55
+
+Summary latency data for PCIE (0000:02:00.0)                         from core 0:
+=================================================================================
+  1.00000% :   423.253us
+ 10.00000% :   428.715us
+ 25.00000% :   431.445us
+ 50.00000% :   434.176us
+ 75.00000% :   442.368us
+ 90.00000% :   450.560us
+ 95.00000% :   461.483us
+ 98.00000% :   472.405us
+ 99.00000% :   475.136us
+ 99.50000% :   477.867us
+ 99.90000% :   496.981us
+ 99.99000% :   507.904us
+ 99.99900% :   527.019us
+ 99.99990% :   540.672us
+ 99.99999% :   551.595us
+
+0000:01:00.0 (8086 f1a8): Skipping un-whitelisted NVMe controller 
+0000:02:00.0 (8086 2700): uio_pci_generic -> nvme
+== Engine aio Dev /dev/nvme0n1 IOdepth 256 ==
+Starting SPDK v20.04-pre git sha1 72b9af55f / DPDK 19.11.0 initialization...
+[ DPDK EAL parameters: perf --no-shconf -c 0x1 --log-level=lib.eal:6 --log-level=lib.cryptodev:5 --log-level=user1:6 --iova-mode=pa --base-virtaddr=0x200000000000 --match-allocations --file-prefix=spdk_pid29356 ]
+Initializing NVMe Controllers
+Associating /dev/nvme0n1 with lcore 0
+Initialization complete. Launching workers.
+========================================================
+                                                             Latency(us)
+Device Information       :       IOPS      MiB/s    Average        min        max
+/dev/nvme0n1 from core  0:  494078.57    1929.99     518.10      87.39     813.76
+========================================================
+Total                    :  494078.57    1929.99     518.10      87.39     813.76
+
+Summary latency data for /dev/nvme0n1                                from core 0:
+=================================================================================
+  1.00000% :   502.443us
+ 10.00000% :   513.365us
+ 25.00000% :   516.096us
+ 50.00000% :   518.827us
+ 75.00000% :   521.557us
+ 90.00000% :   527.019us
+ 95.00000% :   537.941us
+ 98.00000% :   548.864us
+ 99.00000% :   551.595us
+ 99.50000% :   554.325us
+ 99.90000% :   592.555us
+ 99.99000% :   731.819us
+ 99.99900% :   802.816us
+ 99.99990% :   808.277us
+ 99.99999% :   813.739us
+
