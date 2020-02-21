@@ -1,0 +1,67 @@
+== Engine spdk Dev /dev/nvme0n1 IOdepth 1 ==
+0000:01:00.0 (8086 f1a8): Skipping un-whitelisted NVMe controller at 0000:01:00.0
+0000:02:00.0 (8086 2700): nvme -> uio_pci_generic
+Starting SPDK v20.04-pre git sha1 72b9af55f / DPDK 19.11.0 initialization...
+[ DPDK EAL parameters: perf --no-shconf -c 0x1 --log-level=lib.eal:6 --log-level=lib.cryptodev:5 --log-level=user1:6 --iova-mode=pa --base-virtaddr=0x200000000000 --match-allocations --file-prefix=spdk_pid16301 ]
+Initializing NVMe Controllers
+Attached to NVMe Controller at 0000:02:00.0 [8086:2700]
+Associating PCIE (0000:02:00.0) with lcore 0
+Initialization complete. Launching workers.
+========================================================
+                                                                    Latency(us)
+Device Information              :       IOPS      MiB/s    Average        min        max
+PCIE (0000:02:00.0) from core  0:  120202.48     469.54       8.30       6.91     122.61
+========================================================
+Total                           :  120202.48     469.54       8.30       6.91     122.61
+
+Summary latency data for PCIE (0000:02:00.0)                         from core 0:
+=================================================================================
+  1.00000% :     7.637us
+ 10.00000% :     8.107us
+ 25.00000% :     8.107us
+ 50.00000% :     8.192us
+ 75.00000% :     8.235us
+ 90.00000% :     8.320us
+ 95.00000% :     8.448us
+ 98.00000% :     8.619us
+ 99.00000% :     9.472us
+ 99.50000% :    20.565us
+ 99.90000% :    34.987us
+ 99.99000% :    40.789us
+ 99.99900% :    45.397us
+ 99.99990% :    50.517us
+ 99.99999% :    54.272us
+
+0000:01:00.0 (8086 f1a8): Skipping un-whitelisted NVMe controller 
+0000:02:00.0 (8086 2700): uio_pci_generic -> nvme
+== Engine aio Dev /dev/nvme0n1 IOdepth 1 ==
+Starting SPDK v20.04-pre git sha1 72b9af55f / DPDK 19.11.0 initialization...
+[ DPDK EAL parameters: perf --no-shconf -c 0x1 --log-level=lib.eal:6 --log-level=lib.cryptodev:5 --log-level=user1:6 --iova-mode=pa --base-virtaddr=0x200000000000 --match-allocations --file-prefix=spdk_pid16706 ]
+Initializing NVMe Controllers
+Associating /dev/nvme0n1 with lcore 0
+Initialization complete. Launching workers.
+========================================================
+                                                             Latency(us)
+Device Information       :       IOPS      MiB/s    Average        min        max
+/dev/nvme0n1 from core  0:   93805.93     366.43      10.64       9.48     107.19
+========================================================
+Total                    :   93805.93     366.43      10.64       9.48     107.19
+
+Summary latency data for /dev/nvme0n1                                from core 0:
+=================================================================================
+  1.00000% :     9.941us
+ 10.00000% :    10.453us
+ 25.00000% :    10.496us
+ 50.00000% :    10.539us
+ 75.00000% :    10.624us
+ 90.00000% :    10.709us
+ 95.00000% :    10.837us
+ 98.00000% :    11.008us
+ 99.00000% :    11.947us
+ 99.50000% :    21.504us
+ 99.90000% :    36.693us
+ 99.99000% :    43.008us
+ 99.99900% :    46.763us
+ 99.99990% :    54.955us
+ 99.99999% :   107.861us
+

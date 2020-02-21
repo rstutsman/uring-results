@@ -168,3 +168,4 @@ Starting SPDK v20.04-pre git sha1 72b9af55f / DPDK 19.11.0 initialization...
 == Engine io_uring Dev /dev/nvme0n1 Jobs 3 TargetIOPS 600000 200000 Polling 2 ==
 
 fio: terminating on signal 15
+== Engine io_uring Dev /dev/nvme0n1 Jobs 3 TargetIOPS 300000 100000 Polling 0 ==
